@@ -1,0 +1,18 @@
+1-Site URL : https://floating-dawn-20653.herokuapp.com/
+
+2-API URL : https://lit-plateau-25547.herokuapp.com
+  1- Users => GET : https://lit-plateau-25547.herokuapp.com/users
+  3- Register => POST : https://lit-plateau-25547.herokuapp.com/register
+           payload : {
+	      "name" : "John",
+	      "email" : "john@mail.com",
+              "password" : "cookies"
+	
+          }
+   3- Signin => POST : https://lit-plateau-25547.herokuapp.com/signin
+           payload : {
+	      "email" : "john@mail.com",
+              "password" : "cookies"
+	
+          }
+  4- image => 
