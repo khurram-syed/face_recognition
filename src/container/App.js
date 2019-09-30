@@ -118,6 +118,11 @@ onClickEvent=(event)=>{
           }).then(res => res.json())
           .then(count=>{
              console.log(`count : ${count}`);
+             this.setState(prevState=>({
+                user : {...prevState.user,
+                entries: count
+                } 
+             }))
              console.log("user",this.state.user.name)
              Object.assign(this.state.user, {entries : count})
           })
